@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fountain Nav</title>
+  <title>1st HWHW</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
@@ -19,9 +19,17 @@
 
 
   <nav class="navbar">
+    <div class="bar-left">
+      <i id="toggle" class="fa-solid fa-bars"></i>
+
+    </div>
 
     <div class="logo">Fo<span>ü</span>ntain</div>
-    <ul class="nav-links">
+
+    <div class="bar-right">
+      <i class="fa-solid fa-user-secret"></i>
+    </div>
+    <ul class="nav-links" id="mobile-nav">
       <li><a href="">Home</a></li>
       <li><a href="">Courses</a></li>
       <li><a href="">Instructors</a></li>
@@ -96,5 +104,6 @@
        </div>
      </div>
    </main>
+   <script src="index.js"></script>
 </body>
 </html>
